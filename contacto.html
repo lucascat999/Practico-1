@@ -1,48 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lucas y Asociados - Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="site-header">
-        <h1>contacto</h1>
-        <nav class="site-nav"></nav>>
+    <header>
+        <h1>Lucas y Asociados</h1>
+        <nav>
             <ul>
-                <li><a href="index.html"></a>Home</li>
-                <li><a href="nosotros.html"></a>nosotros</li>
-                <li><a href="clientes.html"></a>clientes</li>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="index.html#clientes">Clientes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <section></section>
-    <h2></h2>
-    <main class="site-main">
-         <section id="home">
-            <h2>Home</h2>
-            <p>somos un estudio contable que nos dedicamos a liquidar impuestos.</p>
 
-               <section id="nosotros">
-            <h2>Nosotros</h2>
-            <p>lucas guzman jorge rey ledesma adrian.</p>
-        </section>
-
-        <section id="clientes">
-            <h2>Clientes</h2>
-            <p>julian alvares mesi leonel laura arriba.</p>
-        </section>
-
+    <main>
         <section id="contacto">
-            <h2>Contacto</h2>
-            <form id="contact-form">
-                <label for="nombre">juan:</label>
-                <input type="text" id="nombre" name="nombre" required><br>
+            <h2>Contáctenos</h2>
+            <p>¿Tiene alguna consulta o necesita asesoramiento? No dude en contactarnos. Estamos aquí para ayudarle con sus necesidades contables y fiscales.</p>
 
+            <div class="contact-info">
+                <h3>Información de Contacto</h3>
+                <p><strong>Dirección:</strong> Av. Colón 1234, B° Centro, Córdoba Capital, Argentina</p>
+                <p><strong>Teléfono:</strong> +54 9 351 1234567</p>
+                <p><strong>Email:</strong> info@lucasyasociados.com.ar</p>
+                <p><strong>Horario de Atención:</strong> Lunes a Viernes de 9:00 a 18:00 hs.</p>
+            </div>
+
+            <div class="contact-form">
+                <h3>Envíanos un Mensaje</h3>
+                <form action="#" method="POST">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefono">Teléfono (opcional):</label>
+                    <input type="tel" id="telefono" name="telefono">
+
+                    <label for="mensaje">Tu Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+            </div>
         </section>
     </main>
 
+    <footer>
+        <p>&copy; 2025 Lucas y Asociados. Todos los derechos reservados.</p>
+    </footer>
 
-<footer></footer>
 </body>
 </html>
