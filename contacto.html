@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
  <title>Lucas y Asociados - Contacto</title>
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="css/estilo.css">
- <script defer src="script.js"></script>
+ <link rel="stylesheet" href="css/estilo.css" />
+ <script defer src="javascript/script.js"></script>
 </head>
 <body>
  <header>
@@ -65,8 +65,9 @@
          <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
 
          <button type="submit">Enviar Mensaje</button>
-         <!-- Botón adicional, oculto al principio -->
-         <button type="button" id="boton-mensaje-enviado" style="display: none; margin-top: 10px;">Mensaje enviado</button>
+         <p id="confirmacion" style="display: none; color: green; font-weight: bold; margin-top: 10px;">
+           Mensaje enviado
+         </p>
        </form>
      </div>
    </section>
@@ -77,3 +78,4 @@
  </footer>
 </body>
 </html>
+
